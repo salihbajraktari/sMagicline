@@ -1,0 +1,32 @@
+{
+  "name": "sMagicline",
+  "title": "jQuery Simple Magicline",
+  "description": "Makes your navigation with magicline",
+  "keywords": [
+    "jquery",
+    "sMagicline",
+    "plugins"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Salih Bajraktari",
+    "url": "https://github.com/salihbajraktari/"
+  },
+  "maintainers": [
+    {
+      "name": "Salih Bajraktari",
+      "url": "https://github.com/salihbajraktari/"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/salihbajraktari/sMagicline/LICENSE.txt"
+    }
+  ],
+  "docs": "https://github.com/salihbajraktari/sMagicline/blob/master/README.md",
+  "download": "https://github.com/salihbajraktari/sMagicline",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
