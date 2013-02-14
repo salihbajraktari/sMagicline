@@ -1,0 +1,86 @@
+/***************  START RESET *********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style:none outside none;
+    text-decoration:none;
+    font-family:arial
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a,
+img{
+    border: 0 none;
+    font-family: 'Open Sans';
+    outline: 0 none;
+}
+input{
+    outline: 0 none;
+    border: 0 none;
+    background: 0 none;
+}
+/****************  END RESET **********************/
+.entirebody{
+    margin: 0 auto;
+    width: 960px;
+	padding: 50px 0;
+}
+p{
+	padding: 10px;
+}
+ul.mainnav {
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+ul.mainnav li {
+    float: left;
+	font-family: 'HelveticaWorld-Regular';
+    font-size: 14px;
+    margin: 0 13px;
+}
+ul.mainnav li a {
+    color: #585858;
+    float: left;
+    font-family: 'HelveticaNeueLTCom-Lt';
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 4px;
+}
+ul.mainnav li a:hover, 
+ul.mainnav li a.active {
+    color: #D50100;
+}
+ul.mainnav li a#magic-line {
+    background: url("../images/mainnav_active.png") repeat-x scroll left top transparent;
+    color: #D50100;
+    height: 50px;
+    left: 0;
+    list-style: none outside none;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
